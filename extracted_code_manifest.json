@@ -1,0 +1,1682 @@
+[
+  {
+    "title": "代码清单1-1: 使用 LangChain 创建一个简单的 Agent",
+    "lang": "python",
+    "chapter_file": "chapter-001.md",
+    "line": 153,
+    "extracted_file": "src\\代码清单1-1_ 使用 LangChain 创建一个简单的 Agent.py",
+    "source": null
+  },
+  {
+    "title": "代码清单3-1: 使用 LangChain 实现简单 RAG",
+    "lang": "python",
+    "chapter_file": "chapter-003.md",
+    "line": 135,
+    "extracted_file": "src\\代码清单3-1_ 使用 LangChain 实现简单 RAG.py",
+    "source": null
+  },
+  {
+    "title": "代码清单3-2: 使用 OpenAI SDK 实现工具调用",
+    "lang": "python",
+    "chapter_file": "chapter-003.md",
+    "line": 205,
+    "extracted_file": "src\\代码清单3-2_ 使用 OpenAI SDK 实现工具调用.py",
+    "source": null
+  },
+  {
+    "title": "代码清单3-3: 组合三大增强能力的 RAG Agent",
+    "lang": "python",
+    "chapter_file": "chapter-003.md",
+    "line": 298,
+    "extracted_file": "src\\代码清单3-3_ 组合三大增强能力的 RAG Agent.py",
+    "source": null
+  },
+  {
+    "title": "代码清单4-1: 使用 LangChain 的 RunnableParallel 并行查询多个数据源",
+    "lang": "python",
+    "chapter_file": "chapter-004.md",
+    "line": 231,
+    "extracted_file": "src\\代码清单4-1_ 使用 LangChain 的 RunnableParallel 并行查询多个数据源.py",
+    "source": null
+  },
+  {
+    "title": "代码清单5-1: 第一个 LangChain Chain：直接调用 LLM",
+    "lang": "python",
+    "chapter_file": "chapter-005.md",
+    "line": 97,
+    "extracted_file": "src\\代码清单5-1_ 第一个 LangChain Chain：直接调用 LLM.py",
+    "source": null
+  },
+  {
+    "title": "代码清单5-2: 使用提示词模板的 Chain",
+    "lang": "python",
+    "chapter_file": "chapter-005.md",
+    "line": 115,
+    "extracted_file": "src\\代码清单5-2_ 使用提示词模板的 Chain.py",
+    "source": null
+  },
+  {
+    "title": "代码清单5-3: 多步骤推理 Chain：分析 + 回答",
+    "lang": "python",
+    "chapter_file": "chapter-005.md",
+    "line": 144,
+    "extracted_file": "src\\代码清单5-3_ 多步骤推理 Chain：分析 + 回答.py",
+    "source": null
+  },
+  {
+    "title": "代码清单5-4: 使用 PydanticOutputParser 生成结构化输出",
+    "lang": "python",
+    "chapter_file": "chapter-005.md",
+    "line": 195,
+    "extracted_file": "src\\代码清单5-4_ 使用 PydanticOutputParser 生成结构化输出.py",
+    "source": null
+  },
+  {
+    "title": "代码清单5-5: 技术方案分析 Chain",
+    "lang": "python",
+    "chapter_file": "chapter-005.md",
+    "line": 248,
+    "extracted_file": "src\\代码清单5-5_ 技术方案分析 Chain.py",
+    "source": null
+  },
+  {
+    "title": "代码清单5-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-005.md",
+    "line": 322,
+    "extracted_file": "src\\代码清单5-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单6-1: 第一个 OpenAI Agents SDK Agent",
+    "lang": "python",
+    "chapter_file": "chapter-006.md",
+    "line": 50,
+    "extracted_file": "src\\代码清单6-1_ 第一个 OpenAI Agents SDK Agent.py",
+    "source": null
+  },
+  {
+    "title": "代码清单6-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-006.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单6-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单6-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-006.md",
+    "line": 100,
+    "extracted_file": "src\\代码清单6-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单6-4: 使用 Handoffs 实现多角色协作",
+    "lang": "python",
+    "chapter_file": "chapter-006.md",
+    "line": 153,
+    "extracted_file": "src\\代码清单6-4_ 使用 Handoffs 实现多角色协作.py",
+    "source": null
+  },
+  {
+    "title": "代码清单6-5: Handoffs 携带上下文信息",
+    "lang": "python",
+    "chapter_file": "chapter-006.md",
+    "line": 198,
+    "extracted_file": "src\\代码清单6-5_ Handoffs 携带上下文信息.py",
+    "source": null
+  },
+  {
+    "title": "代码清单6-6: 使用 Sandbox 安全执行代码",
+    "lang": "python",
+    "chapter_file": "chapter-006.md",
+    "line": 236,
+    "extracted_file": "src\\代码清单6-6_ 使用 Sandbox 安全执行代码.py",
+    "source": null
+  },
+  {
+    "title": "代码清单6-7: 多角色客服系统完整实现",
+    "lang": "python",
+    "chapter_file": "chapter-006.md",
+    "line": 270,
+    "extracted_file": "src\\代码清单6-7_ 多角色客服系统完整实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单7-1: 使用 Claude SDK 调用 Claude",
+    "lang": "python",
+    "chapter_file": "chapter-007.md",
+    "line": 36,
+    "extracted_file": "src\\代码清单7-1_ 使用 Claude SDK 调用 Claude.py",
+    "source": null
+  },
+  {
+    "title": "代码清单7-2: Claude Tool Use 完整示例",
+    "lang": "python",
+    "chapter_file": "chapter-007.md",
+    "line": 56,
+    "extracted_file": "src\\代码清单7-2_ Claude Tool Use 完整示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单7-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-007.md",
+    "line": 153,
+    "extracted_file": "src\\代码清单7-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单7-4: 多功能 Tool Use Agent",
+    "lang": "python",
+    "chapter_file": "chapter-007.md",
+    "line": 191,
+    "extracted_file": "src\\代码清单7-4_ 多功能 Tool Use Agent.py",
+    "source": null
+  },
+  {
+    "title": "代码清单9-1: 路由 Agent 核心逻辑",
+    "lang": "python",
+    "chapter_file": "chapter-009.md",
+    "line": 99,
+    "extracted_file": "src\\代码清单9-1_ 路由 Agent 核心逻辑.py",
+    "source": null
+  },
+  {
+    "title": "代码清单9-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-009.md",
+    "line": 120,
+    "extracted_file": "src\\代码清单9-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单9-3: 工具 Agent 核心逻辑",
+    "lang": "python",
+    "chapter_file": "chapter-009.md",
+    "line": 146,
+    "extracted_file": "src\\代码清单9-3_ 工具 Agent 核心逻辑.py",
+    "source": null
+  },
+  {
+    "title": "代码清单9-4: 使用 StateGraph 管理状态",
+    "lang": "python",
+    "chapter_file": "chapter-009.md",
+    "line": 170,
+    "extracted_file": "src\\代码清单9-4_ 使用 StateGraph 管理状态.py",
+    "source": null
+  },
+  {
+    "title": "代码清单9-5: 完整的 AI 助手实现",
+    "lang": "python",
+    "chapter_file": "chapter-009.md",
+    "line": 200,
+    "extracted_file": "src\\代码清单9-5_ 完整的 AI 助手实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单9-6: 添加对话记忆的扩展实现",
+    "lang": "python",
+    "chapter_file": "chapter-009.md",
+    "line": 285,
+    "extracted_file": "src\\代码清单9-6_ 添加对话记忆的扩展实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单10-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-010.md",
+    "line": 81,
+    "extracted_file": "src\\代码清单10-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单10-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-010.md",
+    "line": 97,
+    "extracted_file": "src\\代码清单10-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单10-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-010.md",
+    "line": 111,
+    "extracted_file": "src\\代码清单10-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单10-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-010.md",
+    "line": 130,
+    "extracted_file": "src\\代码清单10-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单10-5: RunnablePassthrough 用法",
+    "lang": "python",
+    "chapter_file": "chapter-010.md",
+    "line": 158,
+    "extracted_file": "src\\代码清单10-5_ RunnablePassthrough 用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单10-6: 新闻摘要处理 Chain",
+    "lang": "python",
+    "chapter_file": "chapter-010.md",
+    "line": 190,
+    "extracted_file": "src\\代码清单10-6_ 新闻摘要处理 Chain.py",
+    "source": null
+  },
+  {
+    "title": "代码清单10-7: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-010.md",
+    "line": 244,
+    "extracted_file": "src\\代码清单10-7_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单11-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-011.md",
+    "line": 57,
+    "extracted_file": "src\\代码清单11-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单11-2: 创建 StateGraph",
+    "lang": "python",
+    "chapter_file": "chapter-011.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单11-2_ 创建 StateGraph.py",
+    "source": null
+  },
+  {
+    "title": "代码清单11-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-011.md",
+    "line": 88,
+    "extracted_file": "src\\代码清单11-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单11-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-011.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单11-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单11-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-011.md",
+    "line": 132,
+    "extracted_file": "src\\代码清单11-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单11-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-011.md",
+    "line": 245,
+    "extracted_file": "src\\代码清单11-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单12-1: LangChain ReAct Agent",
+    "lang": "python",
+    "chapter_file": "chapter-012.md",
+    "line": 66,
+    "extracted_file": "src\\代码清单12-1_ LangChain ReAct Agent.py",
+    "source": null
+  },
+  {
+    "title": "代码清单12-2: 手动实现 ReAct 循环",
+    "lang": "python",
+    "chapter_file": "chapter-012.md",
+    "line": 113,
+    "extracted_file": "src\\代码清单12-2_ 手动实现 ReAct 循环.py",
+    "source": null
+  },
+  {
+    "title": "代码清单12-3: 研究 Agent 完整实现",
+    "lang": "python",
+    "chapter_file": "chapter-012.md",
+    "line": 179,
+    "extracted_file": "src\\代码清单12-3_ 研究 Agent 完整实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单13-1: @tool 装饰器基础用法",
+    "lang": "python",
+    "chapter_file": "chapter-013.md",
+    "line": 42,
+    "extracted_file": "src\\代码清单13-1_ @tool 装饰器基础用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单13-2: 带复杂参数的 Tool 定义",
+    "lang": "python",
+    "chapter_file": "chapter-013.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单13-2_ 带复杂参数的 Tool 定义.py",
+    "source": null
+  },
+  {
+    "title": "代码清单13-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-013.md",
+    "line": 95,
+    "extracted_file": "src\\代码清单13-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单13-4: Function Calling 完整流程",
+    "lang": "python",
+    "chapter_file": "chapter-013.md",
+    "line": 132,
+    "extracted_file": "src\\代码清单13-4_ Function Calling 完整流程.py",
+    "source": null
+  },
+  {
+    "title": "代码清单13-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-013.md",
+    "line": 197,
+    "extracted_file": "src\\代码清单13-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单14-1: ConversationBufferMemory 用法",
+    "lang": "python",
+    "chapter_file": "chapter-014.md",
+    "line": 53,
+    "extracted_file": "src\\代码清单14-1_ ConversationBufferMemory 用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单14-2: ConversationSummaryMemory 用法",
+    "lang": "python",
+    "chapter_file": "chapter-014.md",
+    "line": 88,
+    "extracted_file": "src\\代码清单14-2_ ConversationSummaryMemory 用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单14-3: ConversationWindowBufferMemory 用法",
+    "lang": "python",
+    "chapter_file": "chapter-014.md",
+    "line": 142,
+    "extracted_file": "src\\代码清单14-3_ ConversationWindowBufferMemory 用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单14-4: VectorStoreRetrieverMemory 用法",
+    "lang": "python",
+    "chapter_file": "chapter-014.md",
+    "line": 167,
+    "extracted_file": "src\\代码清单14-4_ VectorStoreRetrieverMemory 用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单14-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-014.md",
+    "line": 213,
+    "extracted_file": "src\\代码清单14-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单14-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-014.md",
+    "line": 252,
+    "extracted_file": "src\\代码清单14-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单14-7: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-014.md",
+    "line": 295,
+    "extracted_file": "src\\代码清单14-7_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单15-1: JsonOutputParser 用法",
+    "lang": "python",
+    "chapter_file": "chapter-015.md",
+    "line": 51,
+    "extracted_file": "src\\代码清单15-1_ JsonOutputParser 用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单15-2: PydanticOutputParser 用法",
+    "lang": "python",
+    "chapter_file": "chapter-015.md",
+    "line": 86,
+    "extracted_file": "src\\代码清单15-2_ PydanticOutputParser 用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单15-3: 自定义 OutputParser",
+    "lang": "python",
+    "chapter_file": "chapter-015.md",
+    "line": 129,
+    "extracted_file": "src\\代码清单15-3_ 自定义 OutputParser.py",
+    "source": null
+  },
+  {
+    "title": "代码清单15-4: 结构化 API 响应 Agent",
+    "lang": "python",
+    "chapter_file": "chapter-015.md",
+    "line": 190,
+    "extracted_file": "src\\代码清单15-4_ 结构化 API 响应 Agent.py",
+    "source": null
+  },
+  {
+    "title": "代码清单15-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-015.md",
+    "line": 275,
+    "extracted_file": "src\\代码清单15-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单16-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-016.md",
+    "line": 67,
+    "extracted_file": "src\\代码清单16-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单16-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-016.md",
+    "line": 80,
+    "extracted_file": "src\\代码清单16-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单16-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-016.md",
+    "line": 101,
+    "extracted_file": "src\\代码清单16-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单16-4: RAG Chain 实现",
+    "lang": "python",
+    "chapter_file": "chapter-016.md",
+    "line": 120,
+    "extracted_file": "src\\代码清单16-4_ RAG Chain 实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单16-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-016.md",
+    "line": 146,
+    "extracted_file": "src\\代码清单16-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单16-6: 企业文档库 RAG 系统",
+    "lang": "python",
+    "chapter_file": "chapter-016.md",
+    "line": 204,
+    "extracted_file": "src\\代码清单16-6_ 企业文档库 RAG 系统.py",
+    "source": null
+  },
+  {
+    "title": "代码清单17-1: LangSmith 配置",
+    "lang": "python",
+    "chapter_file": "chapter-017.md",
+    "line": 57,
+    "extracted_file": "src\\代码清单17-1_ LangSmith 配置.py",
+    "source": null
+  },
+  {
+    "title": "代码清单17-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-017.md",
+    "line": 71,
+    "extracted_file": "src\\代码清单17-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单17-3: 追踪自定义 Chain",
+    "lang": "python",
+    "chapter_file": "chapter-017.md",
+    "line": 101,
+    "extracted_file": "src\\代码清单17-3_ 追踪自定义 Chain.py",
+    "source": null
+  },
+  {
+    "title": "代码清单17-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-017.md",
+    "line": 160,
+    "extracted_file": "src\\代码清单17-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单17-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-017.md",
+    "line": 220,
+    "extracted_file": "src\\代码清单17-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单18-1: LLM-as-Judge 评估",
+    "lang": "python",
+    "chapter_file": "chapter-018.md",
+    "line": 63,
+    "extracted_file": "src\\代码清单18-1_ LLM-as-Judge 评估.py",
+    "source": null
+  },
+  {
+    "title": "代码清单18-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-018.md",
+    "line": 119,
+    "extracted_file": "src\\代码清单18-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单18-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-018.md",
+    "line": 158,
+    "extracted_file": "src\\代码清单18-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单18-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-018.md",
+    "line": 236,
+    "extracted_file": "src\\代码清单18-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单19-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-019.md",
+    "line": 103,
+    "extracted_file": "src\\代码清单19-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单19-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-019.md",
+    "line": 152,
+    "extracted_file": "src\\代码清单19-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单19-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-019.md",
+    "line": 188,
+    "extracted_file": "src\\代码清单19-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单19-4: 研究 Agent 完整实现",
+    "lang": "python",
+    "chapter_file": "chapter-019.md",
+    "line": 230,
+    "extracted_file": "src\\代码清单19-4_ 研究 Agent 完整实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单19-5: 扩展：多源搜索 + 进度保存",
+    "lang": "python",
+    "chapter_file": "chapter-019.md",
+    "line": 370,
+    "extracted_file": "src\\代码清单19-5_ 扩展：多源搜索 + 进度保存.py",
+    "source": null
+  },
+  {
+    "title": "代码清单20-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-020.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单20-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单20-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-020.md",
+    "line": 100,
+    "extracted_file": "src\\代码清单20-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单20-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-020.md",
+    "line": 119,
+    "extracted_file": "src\\代码清单20-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单20-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-020.md",
+    "line": 149,
+    "extracted_file": "src\\代码清单20-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单20-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-020.md",
+    "line": 188,
+    "extracted_file": "src\\代码清单20-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单20-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-020.md",
+    "line": 224,
+    "extracted_file": "src\\代码清单20-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单20-7: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-020.md",
+    "line": 237,
+    "extracted_file": "src\\代码清单20-7_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单20-8: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-020.md",
+    "line": 283,
+    "extracted_file": "src\\代码清单20-8_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单21-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-021.md",
+    "line": 13,
+    "extracted_file": "src\\代码清单21-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单21-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-021.md",
+    "line": 72,
+    "extracted_file": "src\\代码清单21-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单21-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-021.md",
+    "line": 112,
+    "extracted_file": "src\\代码清单21-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单21-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-021.md",
+    "line": 150,
+    "extracted_file": "src\\代码清单21-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单21-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-021.md",
+    "line": 216,
+    "extracted_file": "src\\代码清单21-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单21-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-021.md",
+    "line": 250,
+    "extracted_file": "src\\代码清单21-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单21-7: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-021.md",
+    "line": 297,
+    "extracted_file": "src\\代码清单21-7_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单21-8: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-021.md",
+    "line": 346,
+    "extracted_file": "src\\代码清单21-8_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单22-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-022.md",
+    "line": 68,
+    "extracted_file": "src\\代码清单22-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单22-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-022.md",
+    "line": 238,
+    "extracted_file": "src\\代码清单22-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单22-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-022.md",
+    "line": 327,
+    "extracted_file": "src\\代码清单22-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单23-1: Sandbox Agent 基本用法",
+    "lang": "python",
+    "chapter_file": "chapter-023.md",
+    "line": 66,
+    "extracted_file": "src\\代码清单23-1_ Sandbox Agent 基本用法.py",
+    "source": null
+  },
+  {
+    "title": "代码清单23-2: 让 Agent 自动生成并执行代码",
+    "lang": "python",
+    "chapter_file": "chapter-023.md",
+    "line": 88,
+    "extracted_file": "src\\代码清单23-2_ 让 Agent 自动生成并执行代码.py",
+    "source": null
+  },
+  {
+    "title": "代码清单23-3: 自定义 Sandbox 配置",
+    "lang": "python",
+    "chapter_file": "chapter-023.md",
+    "line": 111,
+    "extracted_file": "src\\代码清单23-3_ 自定义 Sandbox 配置.py",
+    "source": null
+  },
+  {
+    "title": "代码清单23-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-023.md",
+    "line": 132,
+    "extracted_file": "src\\代码清单23-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单23-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-023.md",
+    "line": 186,
+    "extracted_file": "src\\代码清单23-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单24-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 13,
+    "extracted_file": "src\\代码清单24-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单24-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 60,
+    "extracted_file": "src\\代码清单24-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单24-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 82,
+    "extracted_file": "src\\代码清单24-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单24-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 120,
+    "extracted_file": "src\\代码清单24-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单24-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 179,
+    "extracted_file": "src\\代码清单24-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单24-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 213,
+    "extracted_file": "src\\代码清单24-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单24-7: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 250,
+    "extracted_file": "src\\代码清单24-7_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单24-8: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 285,
+    "extracted_file": "src\\代码清单24-8_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单25-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-025.md",
+    "line": 49,
+    "extracted_file": "src\\代码清单25-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单25-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-025.md",
+    "line": 80,
+    "extracted_file": "src\\代码清单25-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单25-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-025.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单25-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单25-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-025.md",
+    "line": 172,
+    "extracted_file": "src\\代码清单25-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单25-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-025.md",
+    "line": 227,
+    "extracted_file": "src\\代码清单25-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单25-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-025.md",
+    "line": 274,
+    "extracted_file": "src\\代码清单25-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单25-7: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-025.md",
+    "line": 349,
+    "extracted_file": "src\\代码清单25-7_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单26-1: Tracing 基本配置",
+    "lang": "python",
+    "chapter_file": "chapter-026.md",
+    "line": 64,
+    "extracted_file": "src\\代码清单26-1_ Tracing 基本配置.py",
+    "source": null
+  },
+  {
+    "title": "代码清单26-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-026.md",
+    "line": 89,
+    "extracted_file": "src\\代码清单26-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单26-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-026.md",
+    "line": 112,
+    "extracted_file": "src\\代码清单26-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单26-4: 追踪多 Agent 协作",
+    "lang": "python",
+    "chapter_file": "chapter-026.md",
+    "line": 169,
+    "extracted_file": "src\\代码清单26-4_ 追踪多 Agent 协作.py",
+    "source": null
+  },
+  {
+    "title": "代码清单27-1: API Key 身份验证",
+    "lang": "python",
+    "chapter_file": "chapter-027.md",
+    "line": 66,
+    "extracted_file": "src\\代码清单27-1_ API Key 身份验证.py",
+    "source": null
+  },
+  {
+    "title": "代码清单27-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-027.md",
+    "line": 111,
+    "extracted_file": "src\\代码清单27-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单27-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-027.md",
+    "line": 163,
+    "extracted_file": "src\\代码清单27-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单27-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-027.md",
+    "line": 211,
+    "extracted_file": "src\\代码清单27-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单27-5: 安全 Agent 系统",
+    "lang": "python",
+    "chapter_file": "chapter-027.md",
+    "line": 258,
+    "extracted_file": "src\\代码清单27-5_ 安全 Agent 系统.py",
+    "source": null
+  },
+  {
+    "title": "代码清单28-1: 订餐 Agent 主Agent",
+    "lang": "python",
+    "chapter_file": "chapter-028.md",
+    "line": 68,
+    "extracted_file": "src\\代码清单28-1_ 订餐 Agent 主Agent.py",
+    "source": null
+  },
+  {
+    "title": "代码清单28-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-028.md",
+    "line": 122,
+    "extracted_file": "src\\代码清单28-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单28-3: 支付确认（带 Guardrails）",
+    "lang": "python",
+    "chapter_file": "chapter-028.md",
+    "line": 165,
+    "extracted_file": "src\\代码清单28-3_ 支付确认（带 Guardrails）.py",
+    "source": null
+  },
+  {
+    "title": "代码清单28-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-028.md",
+    "line": 231,
+    "extracted_file": "src\\代码清单28-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单28-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-028.md",
+    "line": 278,
+    "extracted_file": "src\\代码清单28-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单29-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-029.md",
+    "line": 64,
+    "extracted_file": "src\\代码清单29-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单29-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-029.md",
+    "line": 101,
+    "extracted_file": "src\\代码清单29-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单29-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-029.md",
+    "line": 142,
+    "extracted_file": "src\\代码清单29-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单29-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-029.md",
+    "line": 184,
+    "extracted_file": "src\\代码清单29-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单29-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-029.md",
+    "line": 240,
+    "extracted_file": "src\\代码清单29-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单30-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-030.md",
+    "line": 43,
+    "extracted_file": "src\\代码清单30-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单30-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-030.md",
+    "line": 82,
+    "extracted_file": "src\\代码清单30-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单30-3: Markdown 解析",
+    "lang": "python",
+    "chapter_file": "chapter-030.md",
+    "line": 134,
+    "extracted_file": "src\\代码清单30-3_ Markdown 解析.py",
+    "source": null
+  },
+  {
+    "title": "代码清单30-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-030.md",
+    "line": 212,
+    "extracted_file": "src\\代码清单30-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单30-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-030.md",
+    "line": 286,
+    "extracted_file": "src\\代码清单30-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单31-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-031.md",
+    "line": 53,
+    "extracted_file": "src\\代码清单31-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单31-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-031.md",
+    "line": 100,
+    "extracted_file": "src\\代码清单31-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单31-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-031.md",
+    "line": 147,
+    "extracted_file": "src\\代码清单31-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单31-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-031.md",
+    "line": 213,
+    "extracted_file": "src\\代码清单31-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单31-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-031.md",
+    "line": 290,
+    "extracted_file": "src\\代码清单31-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单32-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-032.md",
+    "line": 55,
+    "extracted_file": "src\\代码清单32-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单32-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-032.md",
+    "line": 128,
+    "extracted_file": "src\\代码清单32-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单32-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-032.md",
+    "line": 199,
+    "extracted_file": "src\\代码清单32-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单32-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-032.md",
+    "line": 313,
+    "extracted_file": "src\\代码清单32-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单33-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-033.md",
+    "line": 75,
+    "extracted_file": "src\\代码清单33-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单33-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-033.md",
+    "line": 207,
+    "extracted_file": "src\\代码清单33-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单33-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-033.md",
+    "line": 270,
+    "extracted_file": "src\\代码清单33-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单33-4: 企业 RAG 评估系统",
+    "lang": "python",
+    "chapter_file": "chapter-033.md",
+    "line": 375,
+    "extracted_file": "src\\代码清单33-4_ 企业 RAG 评估系统.py",
+    "source": null
+  },
+  {
+    "title": "代码清单34-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-034.md",
+    "line": 74,
+    "extracted_file": "src\\代码清单34-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单34-2: 带来源展示的 Gradio 界面",
+    "lang": "python",
+    "chapter_file": "chapter-034.md",
+    "line": 105,
+    "extracted_file": "src\\代码清单34-2_ 带来源展示的 Gradio 界面.py",
+    "source": null
+  },
+  {
+    "title": "代码清单34-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-034.md",
+    "line": 151,
+    "extracted_file": "src\\代码清单34-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单34-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-034.md",
+    "line": 210,
+    "extracted_file": "src\\代码清单34-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单34-5: 优化的 Gradio 界面",
+    "lang": "python",
+    "chapter_file": "chapter-034.md",
+    "line": 292,
+    "extracted_file": "src\\代码清单34-5_ 优化的 Gradio 界面.py",
+    "source": null
+  },
+  {
+    "title": "代码清单35-1: Dockerfile",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
+    "line": 80,
+    "extracted_file": "src\\代码清单35-1_ Dockerfile.py",
+    "source": null
+  },
+  {
+    "title": "代码清单35-2: docker-compose.yml",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
+    "line": 111,
+    "extracted_file": "src\\代码清单35-2_ docker-compose.yml.py",
+    "source": null
+  },
+  {
+    "title": "代码清单35-3: 命令示例",
+    "lang": "bash",
+    "chapter_file": "chapter-035.md",
+    "line": 146,
+    "extracted_file": "src\\代码清单35-3_ 命令示例.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单35-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
+    "line": 162,
+    "extracted_file": "src\\代码清单35-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单35-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
+    "line": 207,
+    "extracted_file": "src\\代码清单35-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单35-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-035.md",
+    "line": 277,
+    "extracted_file": "src\\代码清单35-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单35-7: 代码示例",
+    "lang": "markdown",
+    "chapter_file": "chapter-035.md",
+    "line": 344,
+    "extracted_file": "src\\代码清单35-7_ 代码示例.md",
+    "source": null
+  },
+  {
+    "title": "代码清单35-8: 代码示例",
+    "lang": "",
+    "chapter_file": "chapter-035.md",
+    "line": 359,
+    "extracted_file": "src\\代码清单35-8_ 代码示例.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单36-1: LangChain 多智能体系统基础架构",
+    "lang": "python",
+    "chapter_file": "chapter-036.md",
+    "line": 143,
+    "extracted_file": "src\\代码清单36-1_ LangChain 多智能体系统基础架构.py",
+    "source": null
+  },
+  {
+    "title": "代码清单36-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-036.md",
+    "line": 195,
+    "extracted_file": "src\\代码清单36-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单36-3: Orchestrator-Workers 模式实现",
+    "lang": "python",
+    "chapter_file": "chapter-036.md",
+    "line": 225,
+    "extracted_file": "src\\代码清单36-3_ Orchestrator-Workers 模式实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单36-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-036.md",
+    "line": 356,
+    "extracted_file": "src\\代码清单36-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单36-5: 代码示例",
+    "lang": "markdown",
+    "chapter_file": "chapter-036.md",
+    "line": 416,
+    "extracted_file": "src\\代码清单36-5_ 代码示例.md",
+    "source": null
+  },
+  {
+    "title": "代码清单36-5: 消息格式定义",
+    "lang": "json",
+    "chapter_file": "chapter-036.md",
+    "line": 487,
+    "extracted_file": "src\\代码清单36-5_ 消息格式定义.json",
+    "source": null
+  },
+  {
+    "title": "代码清单36-6: 代码示例",
+    "lang": "",
+    "chapter_file": "chapter-036.md",
+    "line": 500,
+    "extracted_file": "src\\代码清单36-6_ 代码示例.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单36-6: 客服系统多Agent协作时序图",
+    "lang": "mermaid",
+    "chapter_file": "chapter-036.md",
+    "line": 504,
+    "extracted_file": "src\\代码清单36-6_ 客服系统多Agent协作时序图.mmd",
+    "source": null
+  },
+  {
+    "title": "代码清单36-8: 代码示例",
+    "lang": "",
+    "chapter_file": "chapter-036.md",
+    "line": 529,
+    "extracted_file": "src\\代码清单36-8_ 代码示例.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单37-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-037.md",
+    "line": 97,
+    "extracted_file": "src\\代码清单37-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单37-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-037.md",
+    "line": 170,
+    "extracted_file": "src\\代码清单37-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单37-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-037.md",
+    "line": 273,
+    "extracted_file": "src\\代码清单37-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单37-4: 完整Orchestrator实现",
+    "lang": "python",
+    "chapter_file": "chapter-037.md",
+    "line": 355,
+    "extracted_file": "src\\代码清单37-4_ 完整Orchestrator实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单37-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-037.md",
+    "line": 547,
+    "extracted_file": "src\\代码清单37-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单38-1: Evaluator实现",
+    "lang": "python",
+    "chapter_file": "chapter-038.md",
+    "line": 77,
+    "extracted_file": "src\\代码清单38-1_ Evaluator实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单38-2: Optimizer实现",
+    "lang": "python",
+    "chapter_file": "chapter-038.md",
+    "line": 168,
+    "extracted_file": "src\\代码清单38-2_ Optimizer实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单38-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-038.md",
+    "line": 250,
+    "extracted_file": "src\\代码清单38-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单38-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-038.md",
+    "line": 354,
+    "extracted_file": "src\\代码清单38-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单38-5: 技术文档优化Agent",
+    "lang": "python",
+    "chapter_file": "chapter-038.md",
+    "line": 416,
+    "extracted_file": "src\\代码清单38-5_ 技术文档优化Agent.py",
+    "source": null
+  },
+  {
+    "title": "代码清单38-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-038.md",
+    "line": 596,
+    "extracted_file": "src\\代码清单38-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单38-7: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-038.md",
+    "line": 628,
+    "extracted_file": "src\\代码清单38-7_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单39-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-039.md",
+    "line": 156,
+    "extracted_file": "src\\代码清单39-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单39-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-039.md",
+    "line": 221,
+    "extracted_file": "src\\代码清单39-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单39-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-039.md",
+    "line": 346,
+    "extracted_file": "src\\代码清单39-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单39-4: 完整的规划Agent实现",
+    "lang": "python",
+    "chapter_file": "chapter-039.md",
+    "line": 437,
+    "extracted_file": "src\\代码清单39-4_ 完整的规划Agent实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单39-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-039.md",
+    "line": 547,
+    "extracted_file": "src\\代码清单39-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单39-6: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-039.md",
+    "line": 653,
+    "extracted_file": "src\\代码清单39-6_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单39-7: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-039.md",
+    "line": 688,
+    "extracted_file": "src\\代码清单39-7_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单40-1: LangGraph工作流实现",
+    "lang": "python",
+    "chapter_file": "chapter-040.md",
+    "line": 139,
+    "extracted_file": "src\\代码清单40-1_ LangGraph工作流实现.py",
+    "source": null
+  },
+  {
+    "title": "代码清单40-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-040.md",
+    "line": 222,
+    "extracted_file": "src\\代码清单40-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单40-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-040.md",
+    "line": 276,
+    "extracted_file": "src\\代码清单40-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单40-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-040.md",
+    "line": 361,
+    "extracted_file": "src\\代码清单40-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单40-5: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-040.md",
+    "line": 492,
+    "extracted_file": "src\\代码清单40-5_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单41-1: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-041.md",
+    "line": 148,
+    "extracted_file": "src\\代码清单41-1_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单41-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-041.md",
+    "line": 284,
+    "extracted_file": "src\\代码清单41-2_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单41-3: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-041.md",
+    "line": 382,
+    "extracted_file": "src\\代码清单41-3_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单41-4: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-041.md",
+    "line": 559,
+    "extracted_file": "src\\代码清单41-4_ Python代码示例.py",
+    "source": null
+  },
+  {
+    "title": "代码清单41-5: YAML配置示例",
+    "lang": "yaml",
+    "chapter_file": "chapter-041.md",
+    "line": 696,
+    "extracted_file": "src\\代码清单41-5_ YAML配置示例.yaml",
+    "source": null
+  },
+  {
+    "title": "代码清单42-1: 代码示例",
+    "lang": "markdown",
+    "chapter_file": "chapter-042.md",
+    "line": 269,
+    "extracted_file": "src\\代码清单42-1_ 代码示例.md",
+    "source": null
+  },
+  {
+    "title": "代码清单42-2: Python代码示例",
+    "lang": "python",
+    "chapter_file": "chapter-042.md",
+    "line": 332,
+    "extracted_file": "src\\代码清单42-2_ Python代码示例.py",
+    "source": null
+  }
+]

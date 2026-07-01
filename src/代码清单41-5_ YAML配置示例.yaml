@@ -1,0 +1,51 @@
+# 代码清单 41-5
+# prometheus_alerts.yml
+groups:
+  - name: agent_system_alerts
+    interval: 30s
+    rules:
+      # Agent任务失败率告警
+      - alert: AgentTaskFailureRateHigh
+        expr: |
+          rate(agent_tasks_total{status="error"}[5m])
+          / rate(agent_tasks_total[5m]) > 0.1
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Agent任务失败率过高"
+          description: "{{ $labels.agent_id }} 任务失败率超过10%"
+
+      # LLM API延迟告警
+      - alert: LLMAPILatencyHigh
+        expr: |
+          histogram_quantile(0.95,
+            rate(agent_task_duration_seconds_bucket[5m])
+          ) > 10
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "LLM API延迟过高"
+          description: "95%延迟超过10秒"
+
+      # 活跃任务积压告警
+      - alert: AgentTaskBacklog
+        expr: agent_active_tasks > 100
+        for: 10m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Agent任务积压严重"
+          description: "{{ $labels.agent_id }} 有超过100个活跃任务"
+
+      # Token使用量告警
+      - alert: TokenUsageHigh
+        expr: |
+          rate(agent_token_usage_total[1h]) > 1000000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Token使用量异常"
+          description: "{{ $labels.agent_id }} Token使用量异常高"

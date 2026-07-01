@@ -1,0 +1,32 @@
+class CustomerServiceMultiAgent:
+    """多智能体客服系统"""
+
+    def __init__(self):
+        self.agents = {
+            "router": self._create_router(),
+            "order": self._create_order_agent(),
+            "logistics": self._create_logistics_agent(),
+            "complaint": self._create_complaint_agent()
+        }
+
+    def process(self, user_message: str, user_id: str) -> str:
+        """处理用户消息"""
+        # 1. 路由
+        intent = self.agents["router"].classify(user_message)
+
+        # 2. 分发
+        if intent == "order_query":
+            result = self.agents["order"].query(user_message, user_id)
+        elif intent == "logistics":
+            result = self.agents["logistics"].track(user_message)
+        elif intent == "complaint":
+            result = self.agents["complaint"].handle(user_message, user_id)
+        else:
+            result = "抱歉，暂时无法处理这个问题..."
+
+        return result
+
+# 使用示例
+system = CustomerServiceMultiAgent()
+response = system.process("订单A12345什么时候到？", user_id="U001")
+print(response)

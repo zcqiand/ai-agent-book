@@ -1,0 +1,12 @@
+{
+  "msg_id": "uuid",
+  "msg_type": "request|response|handoff",
+  "from": "router",
+  "to": "order_agent",
+  "content": {
+    "task": "query_order",
+    "params": {"order_id": "A12345"},
+    "context": {}
+  },
+  "timestamp": "ISO8601"
+}
