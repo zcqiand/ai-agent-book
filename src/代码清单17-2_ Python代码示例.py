@@ -1,25 +1,23 @@
-from langchain_openai import ChatOpenAI
-from langchain.agents import AgentType, initialize_agent
-from langchain.tools import Tool
+def executor_node(state: ResearchState) -> ResearchState:
+    """执行节点：根据任务类型执行相应操作"""
 
-llm = ChatOpenAI(model="gpt-4", temperature=0)
+    current_task = state["current_task"]
+    topic = state["topic"]
 
-# 定义工具
-def search_tool(query: str) -> str:
-    return f"搜索结果: {query}..."
+    if "搜索" in current_task:
+        result = search_task(topic, current_task)
+    elif "分析" in current_task:
+        result = analyze_task(state["findings"])
+    elif "调研" in current_task:
+        result = survey_task(topic)
+    elif "整理" in current_task:
+        result = organize_task(state["findings"])
+    elif "撰写" in current_task:
+        result = write_report(state["findings"], topic)
+    else:
+        result = f"完成任务：{current_task}"
 
-tools = [Tool(name="搜索", func=search_tool, description="搜索信息")]
-
-# 创建 Agent（启用追踪）
-agent = initialize_agent(
-    tools=tools,
-    llm=llm,
-    agent=AgentType.CONVERSATIONAL_REACT_DESCRIPTION,
-    verbose=False  # LangSmith会记录，不需要verbose
-)
-
-# 运行 - 自动被追踪
-result = agent.run("AI的最新发展是什么？")
-
-# 在 LangSmith Dashboard 查看完整轨迹
-print("查看 https://smith.langchain.com/")
+    return {
+        **state,
+        "findings": state.get("findings", []) + [{"task": current_task, "result": result}]
+    }

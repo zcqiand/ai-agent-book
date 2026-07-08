@@ -1,5 +1,4 @@
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage
 
 # 初始化 LLM
 llm = ChatOpenAI(model="gpt-4", temperature=0)

@@ -1,32 +1,26 @@
-from langchain.agents import AgentType, initialize_agent
-from langchain.memory import ConversationBufferMemory
-from langchain_openai import ChatOpenAI
-from langchain.tools import Tool
+from langchain_community.retrievers import EnsembleRetriever
 
-llm = ChatOpenAI(model="gpt-4", temperature=0)
-
-# 定义工具
-def search_tool(query: str) -> str:
-    return f"搜索结果: {query}"
-
-tools = [Tool(name="搜索", func=search_tool, description="搜索信息")]
-
-# 创建记忆
-memory = ConversationBufferMemory(
-    memory_key="chat_history",
-    return_messages=True
+# 关键词检索
+keyword_retriever = vectorstore.as_retriever(
+    search_type="mmr",  # 最大边际相关性
+    search_kwargs={"k": 5, "fetch_k": 20}
 )
 
-# 初始化带记忆的 Agent
-agent = initialize_agent(
-    tools=tools,
-    llm=llm,
-    agent=AgentType.CONVERSATIONAL_REACT_DESCRIPTION,
-    memory=memory,  # 传入记忆
-    verbose=True
+# 向量检索
+vector_retriever = vectorstore.as_retriever(
+    search_kwargs={"k": 5}
 )
 
-# 多轮对话
-agent.run("我叫张三")
-agent.run("帮我搜索AI的最新进展")
-agent.run("我的名字是什么？")  # 能回答"张三"
+# 混合检索
+ensemble_retriever = EnsembleRetriever(
+    retrievers=[keyword_retriever, vector_retriever],
+    weights=[0.3, 0.7]  # 关键词权重0.3，向量权重0.7
+)
+
+# 使用混合检索的 Chain（同样用 LCEL 手搓，把 retriever 换成 ensemble_retriever 即可）
+def qa_chain_mixed(question: str) -> dict:
+    docs = ensemble_retriever.invoke(question)
+    context = "\n".join(d.page_content for d in docs)
+    messages = prompt.format_messages(context=context, question=question)
+    answer = llm.invoke(messages).content
+    return {"answer": answer, "source_documents": docs}

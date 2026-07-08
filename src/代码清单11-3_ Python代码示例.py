@@ -1,24 +1,30 @@
+from langchain_core.tools import tool
+from langchain_openai import ChatOpenAI
 
-# 普通边：线性执行
-workflow.add_edge("search", "analyze")
-workflow.add_edge("analyze", "respond")
-workflow.add_edge("respond", END)
+llm = ChatOpenAI(model="gpt-4", temperature=0)
 
-# 条件边：根据状态决定下一步
-def should_continue(state: AgentState) -> str:
-    """判断是否需要继续搜索"""
-    if state.get("context", {}).get("need_more_search"):
-        return "search"
-    else:
-        return "respond"
+@tool
+def search_web(query: str) -> str:
+    """搜索网络信息"""
+    return f"网络搜索结果: {query}..."
 
-workflow.add_conditional_edges(
-    "router",
-    should_continue,
-    {
-        "search": "search",
-        "respond": "respond"
-    }
-)
+@tool
+def analyze_content(content: str) -> str:
+    """分析内容并提取关键信息"""
+    return f"分析结果: 在内容中发现了关键信息..."
 
-### 编译并运行图
+@tool
+def format_output(data: str) -> str:
+    """将数据格式化为报告"""
+    return f"报告格式: {data}"
+
+# 组合工具
+def research_pipeline(query: str):
+    """研究管道：搜索 -> 分析 -> 格式化"""
+    raw = search_web.invoke(query)
+    analyzed = analyze_content.invoke(raw)
+    formatted = format_output.invoke(analyzed)
+    return formatted
+
+# 运行
+result = research_pipeline("AI大模型最新进展")

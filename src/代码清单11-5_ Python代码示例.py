@@ -1,80 +1,45 @@
-from langgraph.graph import StateGraph, END
-from typing import TypedDict, List
+from langchain_core.tools import tool
+from langchain_openai import ChatOpenAI
+from typing import Literal
 
-class ResearchState(TypedDict):
-    messages: List[str]
-    query: str
-    iterations: int
-    findings: List[str]
-    final_report: str
+llm = ChatOpenAI(model="gpt-4", temperature=0)
 
-def router_node(state: ResearchState) -> ResearchState:
-    """路由节点：判断是否需要搜索"""
-    return {
-        **state,
-        "current_step": "route"
-    }
+@tool
+def web_search(query: str) -> str:
+    """搜索网络信息"""
+    return f"搜索结果 for {query}: ..."
 
-def search_node(state: ResearchState) -> ResearchState:
-    """搜索节点：执行搜索"""
-    query = state["query"]
-    # 模拟搜索
-    findings = [f"关于{query}的搜索结果..."]
-    return {
-        **state,
-        "findings": state.get("findings", []) + findings,
-        "iterations": state.get("iterations", 0) + 1
-    }
+@tool
+def summarize(text: str, max_length: int = 100) -> str:
+    """将长文本摘要为指定长度"""
+    # 简化实现
+    return text[:max_length] + "..."
 
-def analyze_node(state: ResearchState) -> ResearchState:
-    """分析节点：判断是否需要更多搜索"""
-    # 模拟分析
-    need_more = state.get("iterations", 0) < 3
-    return {
-        **state,
-        "context": {"need_more_search": need_more}
-    }
+@tool
+def translate(text: str, target_lang: str = "中文") -> str:
+    """翻译文本到目标语言"""
+    return f"[翻译为{target_lang}]: {text}"
 
-def respond_node(state: ResearchState) -> ResearchState:
-    """响应节点：生成最终报告"""
-    report = f"基于{len(state.get('findings', []))}个发现生成报告..."
-    return {
-        **state,
-        "final_report": report
-    }
+@tool
+def dispatch_task(task: str, params: dict) -> str:
+    """智能调度任务到合适的工具
 
-# 构建图
-workflow = StateGraph(ResearchState)
-workflow.add_node("router", router_node)
-workflow.add_node("search", search_node)
-workflow.add_node("analyze", analyze_node)
-workflow.add_node("respond", respond_node)
+    Args:
+        task: 任务类型 (search/summarize/translate)
+        params: 任务参数
+    """
+    if task == "search":
+        return web_search.invoke(params.get("query", ""))
+    elif task == "summarize":
+        return summarize.invoke(params.get("text", ""), params.get("max_length", 100))
+    elif task == "translate":
+        return translate.invoke(params.get("text", ""), params.get("target_lang", "中文"))
+    return "未知任务类型"
 
-workflow.set_entry_point("router")
-workflow.add_edge("router", "search")
-workflow.add_edge("search", "analyze")
-
-# 条件边：继续搜索或结束
-def should_continue(state: ResearchState) -> str:
-    if state.get("context", {}).get("need_more_search"):
-        return "search"
-    return "respond"
-
-workflow.add_conditional_edges(
-    "analyze",
-    should_continue,
-    {"search": "search", "respond": "respond"}
-)
-workflow.add_edge("respond", END)
-
-# 编译运行
-app = workflow.compile()
-result = app.invoke({
-    "messages": [],
-    "query": "AI大模型最新进展",
-    "iterations": 0,
-    "findings": [],
-    "final_report": ""
+# 使用调度器
+result = dispatch_task.invoke({
+    "task": "search",
+    "params": {"query": "AI最新进展"}
 })
 
-print(result["final_report"])
+print(result)

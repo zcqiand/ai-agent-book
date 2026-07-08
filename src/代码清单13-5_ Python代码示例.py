@@ -1,45 +1,25 @@
-from langchain_core.tools import tool
 from langchain_openai import ChatOpenAI
-from typing import Literal
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import PydanticOutputParser
+from pydantic import BaseModel
+from typing import List
 
-llm = ChatOpenAI(model="gpt-4", temperature=0)
+class SearchResult(BaseModel):
+    query: str
+    results: List[str]
+    total: int
 
-@tool
-def web_search(query: str) -> str:
-    """搜索网络信息"""
-    return f"搜索结果 for {query}: ..."
+parser = PydanticOutputParser(pydantic_object=SearchResult)
 
-@tool
-def summarize(text: str, max_length: int = 100) -> str:
-    """将长文本摘要为指定长度"""
-    # 简化实现
-    return text[:max_length] + "..."
+def robust_parse(text: str, max_retries: int = 3):
+    """带重试的解析"""
+    for i in range(max_retries):
+        try:
+            return parser.parse(text)
+        except Exception as e:
+            print(f"解析失败，重试 {i+1}/{max_retries}: {e}")
+            # 可以在此处添加重试逻辑
+    return None
 
-@tool
-def translate(text: str, target_lang: str = "中文") -> str:
-    """翻译文本到目标语言"""
-    return f"[翻译为{target_lang}]: {text}"
-
-@tool
-def dispatch_task(task: str, params: dict) -> str:
-    """智能调度任务到合适的工具
-
-    Args:
-        task: 任务类型 (search/summarize/translate)
-        params: 任务参数
-    """
-    if task == "search":
-        return web_search.invoke(params.get("query", ""))
-    elif task == "summarize":
-        return summarize.invoke(params.get("text", ""), params.get("max_length", 100))
-    elif task == "translate":
-        return translate.invoke(params.get("text", ""), params.get("target_lang", "中文"))
-    return "未知任务类型"
-
-# 使用调度器
-result = dispatch_task.invoke({
-    "task": "search",
-    "params": {"query": "AI最新进展"}
-})
-
-print(result)
+# 使用
+result = robust_parse(llm.invoke("返回搜索结果"))
