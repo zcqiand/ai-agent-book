@@ -776,27 +776,35 @@
     "source": "code/sql-self-healer/src/sql_self_healer/guardrail.py"
   },
   {
-    "title": "代码清单24-4: 双 guard 接线——execute_sql 围栏（执行层）+ should_retry human 分支（控制流层）",
+    "title": "代码清单24-4: 双 guard 接线（执行层）——execute_sql 围栏",
     "lang": "python",
     "chapter_file": "chapter-024.md",
     "line": 152,
-    "extracted_file": "src\\代码清单24-4_ 双 guard 接线——execute_sql 围栏（执行层）+ should_retry human 分支（控制流层）.py",
-    "source": "code/sql-self-healer/src/sql_self_healer/nodes.py 与 graph.py"
+    "extracted_file": "src\\代码清单24-4_ 双 guard 接线（执行层）——execute_sql 围栏.py",
+    "source": "code/sql-self-healer/src/sql_self_healer/nodes.py"
   },
   {
-    "title": "代码清单24-5: 跑 test_guardrail.py 看 is_destructive 各类与 classify 三分类判定",
+    "title": "代码清单24-5: 双 guard 接线（控制流层）——should_retry human 分支",
+    "lang": "python",
+    "chapter_file": "chapter-024.md",
+    "line": 171,
+    "extracted_file": "src\\代码清单24-5_ 双 guard 接线（控制流层）——should_retry human 分支.py",
+    "source": "code/sql-self-healer/src/sql_self_healer/graph.py"
+  },
+  {
+    "title": "代码清单24-6: 跑 test_guardrail.py 看 is_destructive 各类与 classify 三分类判定",
     "lang": "bash",
     "chapter_file": "chapter-024.md",
-    "line": 206,
-    "extracted_file": "src\\代码清单24-5_ 跑 test_guardrail.py 看 is_destructive 各类与 classify 三分类判定.sh",
+    "line": 207,
+    "extracted_file": "src\\代码清单24-6_ 跑 test_guardrail.py 看 is_destructive 各类与 classify 三分类判定.sh",
     "source": null
   },
   {
-    "title": "代码清单24-6: DROP 经审批重跑——approved=False 被双 guard 拦下、approved=True 重跑才执行",
+    "title": "代码清单24-7: DROP 经审批重跑——approved=False 被双 guard 拦下、approved=True 重跑才执行",
     "lang": "bash",
     "chapter_file": "chapter-024.md",
-    "line": 219,
-    "extracted_file": "src\\代码清单24-6_ DROP 经审批重跑——approved=False 被双 guard 拦下、approved=True 重跑才执行.sh",
+    "line": 220,
+    "extracted_file": "src\\代码清单24-7_ DROP 经审批重跑——approved=False 被双 guard 拦下、approved=True 重跑才执行.sh",
     "source": null
   },
   {
